@@ -1,5 +1,6 @@
 # WESTWINGNOW
 What is the Project about?
+   
    Westwing is an eCommerce based application which sells  products that are required to set up a home.
    This project is intented to automate this eCommerce application which reduces the manual work. The main
    motto of this project is to add a suitable product to the wishlist and later removing it.
