@@ -11,7 +11,7 @@ Documentation     An eCommerce Test to add and delete the product from the wishl
 
 Test to Add and Delete product from Wishlist
 
-     Navigate to Westwing Browser    firefox
+     Navigate to Westwing Browser    chrome
      sleep  7s
      ${consent_cookies} =  Get Text    ${consent_element}
      log to console    The element is ${consent_cookies}
