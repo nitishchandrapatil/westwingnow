@@ -15,4 +15,9 @@ How to test this script?
     Move to the "Test" directory by using command "cd /westwingnow/Tests"  and run a command
     robot addCart.robot. Here addCart is the name of the our Test project.
 
+    There is another way to test by running below command
 
+docker run --rm -v ${pwd}:/robot robottest  /robot/Tests/addCart.robot
+
+
+Here ${pwd} is the path of the robot project 
